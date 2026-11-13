@@ -4,11 +4,11 @@ Python programs and captured execution evidence for the seven assignment tasks o
 
 ## Student and repository details
 
-- Name: **[Enter your full name]**
-- Register number: **[Enter your register number]**
+- Name: **KAVIN SANDRON**
+- Register number: **1912260623**
 - Python used for captured results: **Python 3.14.7**
-- Required repository name: **CSA08-[RegisterNumber]-Assignment3**
-- GitHub repository link: **[Paste the repository URL here]**
+- Required repository name: **CSA08-1912260623-Assignment3**
+
 
 ## Run from the CO3 folder
 
