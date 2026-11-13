@@ -1,0 +1,1 @@
+# All CO3 task programs use only Python's standard library.

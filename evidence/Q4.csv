@@ -1,0 +1,14 @@
+clash      : ['192311004', '192311009']
+exactly one: ['192311001', '192311002', '192311007', '192311010']
+neither    : ['192311003', '192311005', '192311006', '192311008']
+operators equal set methods: True
+empty electives: set() {'192311009', '192311004', '192311007', '192311001'} {'192311003', '192311006', '192311010', '192311008', '192311002', '192311005'}
+identical electives: {'192311009', '192311004', '192311007', '192311001'} set() set()
+small case hand check (A={a,b}, B={b,c}): {'b'} {'a', 'c'}
+list-in-set error: TypeError
+tuple-in-set works: {(1, 2), (3, 4)}
+n,list_membership_s,set_membership_s,nested_s,ampersand_s
+nested fixture 1500x1500: 0.011440s; set &: 0.000071s
+10000,0.046111,0.000012,NA,NA
+100000,0.463618,0.000010,NA,NA
+1000000,0.461533,0.000001,NA,NA

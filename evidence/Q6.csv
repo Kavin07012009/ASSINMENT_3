@@ -1,0 +1,14 @@
+12601 | Coastal Express | days=['Fri', 'Mon', 'Wed'] | stops=[('Chennai', '06:00', '06:10'), ('Katpadi', '08:00', '08:05'), ('Bengaluru', '11:00', '11:10')]
+12602 | Hill Passenger | days=['Sat', 'Thu', 'Tue'] | stops=[('Chennai', '07:00', '07:05'), ('Katpadi', '09:00', '09:10'), ('Salem', '12:00', '12:05')]
+12603 | City Link | days=['Fri', 'Mon', 'Thu', 'Tue', 'Wed'] | stops=[('Bengaluru', '05:00', '05:10'), ('Katpadi', '07:30', '07:35'), ('Chennai', '10:30', '10:40')]
+12604 | Weekend Special | days=['Sat', 'Sun'] | stops=[('Chennai', '08:15', '08:20'), ('Arakkonam', '09:15', '09:20'), ('Katpadi', '11:00', '11:05')]
+12605 | Southern Mail | days=['Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed'] | stops=[('Salem', '04:00', '04:05'), ('Katpadi', '07:00', '07:10'), ('Chennai', '09:45', '09:55')]
+Monday Katpadi trains sorted by departure: [('12605', 'Southern Mail', '07:10'), ('12603', 'City Link', '07:35'), ('12601', 'Coastal Express', '08:05')]
+unknown station: []
+train not running that day: [('12604', '11:00', '11:05'), ('12605', '07:00', '07:10')]
+third station departure expression: 11:10
+flat-list alternative: scan every (train, station, arrival, departure, days) record
+trains,build_index_s,scan_query_s,indexed_query_s,shallow_index_bytes,answers_equal
+100,0.000016,0.000007,0.000001,3398,True
+1000,0.000173,0.000075,0.000011,25862,True
+10000,0.002286,0.000733,0.000160,251846,True

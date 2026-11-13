@@ -1,0 +1,7 @@
+small merged by number: {'phone:9840012345': {'names': {'ravi kumar', 'Dr. Ravi'}, 'normalized_names': {'ravi kumar', 'ravi'}, 'numbers': {'9840012345'}, 'emails': {'ravi.work@example.com', 'ravi@example.com'}}, 'phone:9000011111': {'names': {'Maya', 'Maya alternate'}, 'normalized_names': {'maya', 'maya alternate'}, 'numbers': {'9000011111'}, 'emails': {'maya@example.com'}}, 'email:only@example.com': {'names': {'Email Only'}, 'normalized_names': {'email only'}, 'numbers': set(), 'emails': {'only@example.com'}}, 'unmatched-record:5': {'names': set(), 'normalized_names': set(), 'numbers': set(), 'emails': set()}}
+hand-check groups/comparisons: 4 9
+same name different phones remain separate: 2
+n,dictionary_s,pairwise_measured_s,pairwise_comparisons,pairwise_projected_s
+1000,0.001944,0.007315,260798,0.014
+100000,0.287056,not_run,4999950000,140.3
+The 100000-contact pairwise value is an extrapolation from the observed pairwise comparison cost, not an executed timing.

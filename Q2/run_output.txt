@@ -1,0 +1,18 @@
+bad : [[0, 7, 0, 0], [0, 7, 0, 0], [0, 7, 0, 0]]
+good: [[0, 7, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+row identity bad/good: True False
+row ids bad: [4378266304, 4378266304, 4378266304]
+row ids good: [4380152832, 4380155328, 4378949696]
+tuple-key lookup: T. Nagar
+list key error: TypeError cannot use 'list' as a dict key (unhashable type: 'list')
+alias is original: True
+shallow outer/inner identity: False True
+slice outer/inner identity: False True
+deep outer/inner identity: False False
+after nested mutation shallow/deep: [[99, 2], [3, 4]] [[1, 2], [3, 4]]
+function changed caller list: [9, 2]
+mutable list inside immutable tuple: ([10, 20, 30], 'fixed label')
+container bytes for one million references (elements excluded): 8000048 8000056
+median creation seconds tuple/list: 0.001848/0.001166
+median indexing 200k seconds tuple/list: 0.001745/0.001772
+zone dictionary sparse alternative: {(row,col):count}; missing keys mean zero

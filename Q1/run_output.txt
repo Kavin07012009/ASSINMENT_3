@@ -1,0 +1,11 @@
+sample weekly totals: [14, 22, 23]
+wettest/driest week (total, week): (23, 3) (14, 1)
+dry day numbers: [1, 4, 9, 16]
+readings[7:14] = [7, 0, 3, 1, 5, 2, 4]
+readings[-7:] = [8, 0, 1, 2, 3, 4, 5]
+readings[::7] = [0, 7, 8]
+empty and short moving averages: [] []
+days,naive_mean_s,running_mean_s,naive_additions,running_additions,running_subtractions
+365,0.000038,0.000016,2513,364,358
+36500,0.003309,0.001136,255458,36499,36493
+365000,0.033932,0.011886,2554958,364999,364993

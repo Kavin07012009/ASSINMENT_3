@@ -1,0 +1,10 @@
+sample get counts: {'seeds': 3, 'received': 2, 'delayed': 1, 'fertiliser': 1, 'price': 2, 'subsidy': 1}
+sample setdefault counts: {'seeds': 3, 'received': 2, 'delayed': 1, 'fertiliser': 1, 'price': 2, 'subsidy': 1}
+top three: [('seeds', 3), ('price', 2), ('received', 2)]
+complaint counts by district: {'Thanjavur': 2, 'Madurai': 1}
+complaints by crop: {'paddy': 2, 'cotton': 1}
+empty text and case/punctuation: {'price': 2, 'seeds': 1}
+size,dict_s,list_count_s,counter_s,total_words,distinct_words
+1000,0.000734,0.001057,0.000717,4177,15
+10000,0.007226,0.010389,0.007409,41951,15
+100000,0.073520,0.104107,0.075465,419937,15
